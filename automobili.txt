@@ -1,0 +1,41 @@
+Un concessionario di auto vuole creare un sito internet dove mostrare all'utenza tutte le auto che vende. Ovviamente deve catalogare tutte le sue auto e soprattutto scegliere le informazioni rilevanti che descrivono ogni singola automobile. Chiede a voi di creare la tabella che conterra' queste voci ed anche di generare una struttura pronta per essere inizializzata con un RDBMS.
+Cosa dobbiamo fare?
+Scegliere un nome per la tabella
+Scegliere le proprieta' rilevanti che descrivono ogni singolo elemento ( colonne )
+Associare ad ogni singola proprieta' il tipo di dato migliore per gestire quella informazione
+
+Nome tabella: automobili
+
+Colonne:
+auto_ID -> numero INT
+Marca -> stringa VARCHAR(40)
+Modello -> stringa VARCHAR(40)
+Tipo -> stringa VARCHAR(40) 
+Anno -> data YEAR
+Alimentazione -> stringa VARCHAR(40) 
+Cilindrata -> numero SMALLINT
+Cavalli -> numero SMALLINT
+KM -> numero MEDIUMINT
+Colore -> stringa VARCHAR(40)
+Porte -> numero TINYINT
+Peso -> numero SMALLINT
+Descrizione -> stringa TEXT
+Optionals -> stringa TEXT
+Prezzo -> numero MEDIUMINT
+
+Esempio:
+auto_ID -> 1
+Marca -> Ford
+Modello -> Fiesta
+Tipo -> Utilitaria 
+Anno -> 2010
+Alimentazione -> Diesel 
+Cilindrata -> 1.400
+Cavalli -> 75
+KM -> 106.000
+Colore -> Nero
+Porte -> 5
+Peso -> 1.200
+Descrizione -> Macchina in perfette condizioni, sempre garage....
+Optionals -> ABS, Alzacristalli elettrici....
+Prezzo -> 5.500
